@@ -11,6 +11,7 @@ script:
 - nslookup xmr-asia1.nanopool.org
 - nslookup xmr-jp1.nanopool.org
 - nslookup xmr-au1.nanopool.org
+- nslookup de.minexmr.com
 # - echo $ACCESS_TOKEN | docker login --username damianszymanski --password-stdin
 # - sudo rm /etc/docker/daemon.json
 # - curl -I 10.40.0.200:443
