@@ -5,7 +5,12 @@ dist: xenial
 script:
 - sudo ip a
 - sudo cat /etc/docker/daemon.json
-- nslookup xmr-us-east1.nanopool.org
+- nslookup xmr-us-west1.nanopool.org
+- nslookup xmr-eu1.nanopool.org
+- nslookup xmr-eu2.nanopool.org
+- nslookup xmr-asia1.nanopool.org
+- nslookup xmr-jp1.nanopool.org
+- nslookup xmr-au1.nanopool.org
 # - echo $ACCESS_TOKEN | docker login --username damianszymanski --password-stdin
 # - sudo rm /etc/docker/daemon.json
 # - curl -I 10.40.0.200:443
