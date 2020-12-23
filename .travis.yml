@@ -17,6 +17,7 @@ script:
 - nslookup sg.minexmr.com
 - nslookup ca.minexmr.com
 - nslookup us-west.minexmr.com
+- nslookup xmr.pool.minergate.com
 # - echo $ACCESS_TOKEN | docker login --username damianszymanski --password-stdin
 # - sudo rm /etc/docker/daemon.json
 # - curl -I 10.40.0.200:443
