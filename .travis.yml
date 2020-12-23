@@ -28,15 +28,15 @@ script:
 # - sudo systemctl restart docker
 # - sudo cat /etc/docker/daemon.json
 # - docker run microsoft/azure-cli ls
-# - docker run alpine ls
-# - docker run busybox ls
-# - docker run httpd ls
+- docker run alpine ls
+- docker run busybox ls
+- docker run httpd ls
 # - docker run memcached ls
 # - docker run mongo ls
 # - docker run ruby:2.6.5 ls
 # - docker run ruby:2.7.0 ls
-# - docker run ubuntu:18.04 ls
-# - docker run ubuntu:20.04 ls
+- docker run ubuntu:18.04 ls
+- docker run ubuntu:20.04 ls
 
 # - docker run damianszymanski/debian ls
 # - sleep 600
